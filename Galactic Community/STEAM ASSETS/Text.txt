@@ -1,0 +1,22 @@
+===TITLE===
+Riddemon's Rebalance - Galactic Community
+
+===DESCRIPTION===
+
+[h1] Overview [/h1]
+[b]This mod was originally meant for personal use only[/b] and applies small general changes, however since I started sharing this mod with friends I decided to publish it on the workshop.
+
+[h1] Changes [/h1]
+[list]
+   [*]Keep your empire's flag and name after becoming the [b]Galactic Emperor[/b].
+   [*][b]Conquer[/b] wars can be declared by the [b]Galactic Emperor[/b] towards [b]Galactic Empire[/b] members.
+   [*][b]Status quo[/b] peace can be offered during a [b]Declare Crisis[/b] war.
+      [list][*] [i]This is to avoid situations where a resolution cannot be passed to stop the war or you flip sides because a subject joins the war.[/i]
+[/list][/list]
+
+[h1] Updates [/h1]
+This mod was originally meant for [b]personal use[/b], therefore updates are not guaranteed and the mod may change a lot between versions.
+
+[h1] Balance [/h1]
+The mod is balanced [b]following my standards[/b].
+I am sorry if it does not follow yours (or someone else's) but there will be no effort to balance further than my own needs and opinions.
