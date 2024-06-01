@@ -24,8 +24,8 @@ Thank you.
 
 ### You removed a feature I liked!
 I am really sorry for removing a feature you liked, you can create a mod to add it back by:
-- Using my old code to create a mod that reintroduces it, however please follow the [License](https://github.com/riddemon/StellarisMods?tab=GPL-3.0-1-ov-file#readme) and give credit to the original creator (me).
-- Code the feature back in, no need to give me credit or follow the license as I can't license ideas.
+- Using my old code (You are required to follow the [License](https://github.com/riddemon/StellarisMods?tab=GPL-3.0-1-ov-file#readme).
+- Coding it in yourself.
 
 ### Someone cloned your mod and is taking credit for it.
 Everyone is allowed to distribute my mods but has to state any changes[^2], therefore has to credit me regardless of changes being made or not.
