@@ -32,7 +32,7 @@ I am really sorry for removing a feature you liked, you can create a mod to add 
 Everyone is allowed to distribute my mods but has to state any changes[^2], therefore has to credit me regardless of changes being made or not.
 Please make them aware of this and ask them to make the necessary changes.
 
-## Your haven't updated the mod in months / years!
+## You haven't updated the mod in months / years!
 This may be for an extensive number of reasons. Here's what you can do:
 - Write a comment on the mod's page.
   - I may have forgotten about it.
