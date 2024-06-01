@@ -43,4 +43,4 @@ This may be for an extensive number of reasons. Here's what you can do:
 - Wait and hope.
 
 [^1]: This is a collection of mods originally meant for personal use only.
-[^2]: https://github.com/riddemon/Riddemons-Rebalance?tab=GPL-3.0-1-ov-file
+[^2]: https://github.com/riddemon/Riddemons-Rebalance?tab=GPL-3.0-1-ov-file#readme
