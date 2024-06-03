@@ -241,6 +241,7 @@ building_fe_dome = {
 	allow = {
 		custom_tooltip = {
 			fail_text = ancrel.10004.failtext
+			exists = owner
 			owner = {
 				OR = {
 					check_variable = { which = skydome_upgrade_count value >= 1 }
@@ -256,9 +257,15 @@ building_fe_dome = {
 	}
 
 	planet_modifier = {
-		planet_housing_add = 200
 		planet_amenities_add = 200
 		planet_pops_upkeep_mult = -0.05
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			NOT = { owner = { has_valid_civic = civic_machine_servitor } }
+		}
+		planet_housing_add = 200
 	}
 
 	triggered_planet_modifier = {
