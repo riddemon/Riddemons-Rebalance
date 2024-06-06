@@ -503,9 +503,9 @@ trait_RD_RR_L_Training_ScientistGovernor_2 = {
 		TIER = 2
 	}
 	planet_modifier = {
-		planet_jobs_physics_research_produces_mult = 0.5
-		planet_jobs_society_research_produces_mult = 0.5
-		planet_jobs_engineering_research_produces_mult = 0.5
+		planet_jobs_physics_research_produces_mult = 0.05
+		planet_jobs_society_research_produces_mult = 0.05
+		planet_jobs_engineering_research_produces_mult = 0.05
 	}
 	sector_modifier = {
 		planet_jobs_physics_research_produces_mult = 0.025
