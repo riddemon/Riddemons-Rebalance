@@ -1,0 +1,38 @@
+===TITLE===
+Riddemon's Rebalance - Assimilate Bio-Trophies
+
+===DESCRIPTION===
+
+[h1] Overview [/h1]
+Tired of having so many different species to pamper? Now you can assimilate any of you bio-trophies into your original bio-trophy species via mandatory gene-therapy.
+
+[h1] Changes [/h1]
+[list]
+  [*] Adds the [b]Mandatory Gene-Therapy[/b] living standard.
+  [list]
+    [*] Available after researching [b]Gene Tailoring[/b].
+    [*] Bio-Trophies with this living standard will slowly be converted into your main species.
+  [/list]
+[/list]
+
+[h1] Updates [/h1]
+This mod was originally meant for [b]personal use[/b], therefore updates are not guaranteed and the mod may change a lot between versions.
+
+[h1] Balance [/h1]
+The mod is balanced [b]following my standards[/b].
+I am sorry if it does not follow yours (or someone else's) but there will be no effort to balance further than my own needs and opinions.
+
+[h1]Credits[/h1]
+[table]
+  [tr][td]Original Idea[/td][td]Me[/td][/tr]
+  [tr][td]Original Code[/td][td]
+    [url=https://steamcommunity.com/id/corsairmarks/]Corsairmarks[/url]
+  [/td][/tr]
+  [tr][td]Original Mod[/td][td]
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2996582310&tscn=1717845878]Merge Bio-Trophies[/url]
+  [/td][/tr]
+
+[h1]Links[/h1]
+[table][tr]
+  [td][url=https://github.com/riddemon/Riddemons-Rebalance][img]https://github.githubassets.com/favicons/favicon-dark.png[/img][/url][/td]
+[/tr][/table]
