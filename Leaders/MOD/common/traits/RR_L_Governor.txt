@@ -1,0 +1,229 @@
+### CRIMINAL ###
+
+trait_RD_RR_L_criminal = {
+	inline_script = {
+		script = trait/icon
+		CLASS = official
+		ICON = GFX_leader_trait_ritualistic_implants_cyborg
+		RARITY = common
+		COUNCIL = no
+		TIER = 1
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_soldier_per_pop = 0.05
+		job_trader_per_pop = 0.05
+		job_criminal_per_pop = 0.05
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_soldier_per_pop = 0.025
+		job_trader_per_pop = 0.025
+		job_criminal_per_pop = 0.025
+	}
+
+	### GESTALT
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		job_warrior_drone_per_pop = 0.05
+		job_maintenance_drone_per_pop = 0.05
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		job_warrior_drone_per_pop = 0.025
+		job_maintenance_drone_per_pop = 0.025
+	}
+
+	### MACHINE
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		job_corrupt_drone_per_pop = 0.05
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		job_corrupt_drone_per_pop = 0.025
+	}
+
+	### HIVE
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_hive_mind }
+		}
+		job_deviant_drone_per_pop = 0.05
+		pop_growth_speed = 0.25
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_hive_mind }
+		}
+		job_deviant_drone_per_pop = 0.025
+		pop_growth_speed = 0.12
+	}
+
+	galcom_modifier = {
+		diplo_weight_mult = -0.05
+		resolution_category_commerce_vote_strength_mult = 0.35
+	}
+
+	federation_modifier = {
+		cohesion_add = -0.1
+		cohesion_ethics_penalty_mult = -0.50
+	}
+
+	triggered_councilor_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		country_trust_growth = -0.1
+		planet_pops_upkeep_mult = 0.05
+		trade_value_mult = 0.40
+	}
+
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/subclass_free_trait_weight
+		inline_script = paragon/governor_weight_mult
+		inline_script = paragon/galcom_weight_mult
+		inline_script = paragon/council_weight_mult
+	}
+	leader_class = { official }
+}
+
+trait_RD_RR_L_criminal_2 = {
+	inline_script = {
+		script = trait/icon
+		CLASS = official
+		ICON = GFX_leader_trait_ritualistic_implants_cyborg
+		RARITY = common
+		COUNCIL = no
+		TIER = 2
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_soldier_per_pop = 0.066
+		job_trader_per_pop = 0.066
+		job_criminal_per_pop = 0.066
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		job_soldier_per_pop = 0.033
+		job_trader_per_pop = 0.033
+		job_criminal_per_pop = 0.033
+	}
+
+	### GESTALT
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		job_warrior_drone_per_pop = 0.066
+		job_maintenance_drone_per_pop = 0.066
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		job_warrior_drone_per_pop = 0.033
+		job_maintenance_drone_per_pop = 0.033
+	}
+
+	### MACHINE
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		job_corrupt_drone_per_pop = 0.066
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_machine_intelligence }
+		}
+		job_corrupt_drone_per_pop = 0.033
+	}
+
+	### HIVE
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_hive_mind }
+		}
+		job_deviant_drone_per_pop = 0.066
+		pop_growth_speed = 0.5
+	}
+
+	triggered_sector_modifier = {
+		potential = {
+			exists = owner
+			owner = { has_authority = auth_hive_mind }
+		}
+		job_deviant_drone_per_pop = 0.033
+		pop_growth_speed = 0.25
+	}
+
+	galcom_modifier = {
+		diplo_weight_mult = -0.1
+		resolution_category_commerce_vote_strength_mult = 0.7
+	}
+
+	federation_modifier = {
+		cohesion_ethics_penalty_mult = -0.60
+	}
+
+	triggered_councilor_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		planet_pops_upkeep_mult = 0.06
+		trade_value_mult = 0.50
+	}
+
+	selectable_weight = {
+		weight = @class_trait_weight
+		inline_script = paragon/subclass_free_trait_weight
+		inline_script = paragon/governor_weight_mult
+		inline_script = paragon/galcom_weight_mult
+		inline_script = paragon/council_weight_mult
+	}
+	leader_class = { official }
+}

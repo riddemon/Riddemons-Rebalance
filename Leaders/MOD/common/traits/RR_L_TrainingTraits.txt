@@ -286,7 +286,7 @@ trait_RD_RR_L_Training_OfficialGovernor_2 = {
 trait_RD_RR_L_Training_OfficialDiplomacyCouncilor = {
 	inline_script = {
 		script = trait/icon
-		CLASS = commander
+		CLASS = official
 		ICON = GFX_leader_trait_ancient_knowledge
 		RARITY = common
 		COUNCIL = yes
@@ -309,14 +309,14 @@ trait_RD_RR_L_Training_OfficialDiplomacyCouncilor = {
 		weight = @class_trait_weight
 		inline_script = paragon/council_weight_mult
 	}
-	leader_class = { commander }
+	leader_class = { official }
 }
 
 trait_RD_RR_L_Training_OfficialDiplomacyCouncilor_2 = {
 	replace_traits = { "trait_RD_RR_L_Training_OfficialDiplomacyCouncilor" }
 	inline_script = {
 		script = trait/icon
-		CLASS = commander
+		CLASS = official
 		ICON = GFX_leader_trait_ancient_knowledge
 		RARITY = common
 		COUNCIL = yes
@@ -329,14 +329,14 @@ trait_RD_RR_L_Training_OfficialDiplomacyCouncilor_2 = {
 		}
 		country_trust_growth = 0.025
 	}
-	leader_class = { commander }
+	leader_class = { official }
 	ai_weight = 100
 }
 
 trait_RD_RR_L_Training_OfficialEconomyCouncilor = {
 	inline_script = {
 		script = trait/icon
-		CLASS = commander
+		CLASS = official
 		ICON = GFX_leader_trait_ancient_knowledge
 		RARITY = common
 		COUNCIL = yes
@@ -361,14 +361,14 @@ trait_RD_RR_L_Training_OfficialEconomyCouncilor = {
 		weight = @class_trait_weight
 		inline_script = paragon/council_weight_mult
 	}
-	leader_class = { commander }
+	leader_class = { official }
 }
 
 trait_RD_RR_L_Training_OfficialEconomyCouncilor_2 = {
 	replace_traits = { "trait_RD_RR_L_Training_OfficialEconomyCouncilor" }
 	inline_script = {
 		script = trait/icon
-		CLASS = commander
+		CLASS = official
 		ICON = GFX_leader_trait_ancient_knowledge
 		RARITY = common
 		COUNCIL = yes
@@ -382,7 +382,7 @@ trait_RD_RR_L_Training_OfficialEconomyCouncilor_2 = {
 		planet_pops_upkeep_mult = -0.025
 		trade_value_mult = 0.025
 	}
-	leader_class = { commander }
+	leader_class = { official }
 	ai_weight = 100
 }
 
