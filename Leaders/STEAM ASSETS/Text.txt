@@ -38,7 +38,7 @@ Here's a list of changes applied by this mod:
     [*][b]Iron fist[/b].
     [*][b]Environmental engineer[/b].
     [*][b]Enlister[/b].
-    [*][b]Architectural interest[/b] is obtainable all leader classes.
+    [*][b]Architectural interest[/b] is obtainable by all leader classes.
     [*][b]Capitalist[/b] is obtainable only by commanders and gives extra jobs to the [b]governed planet[/b].
     [*][b]Private mines[/b] is obtainable only by commanders and gives extra jobs to the [b]governed planet[/b].
     [*][b]Homesteader[/b] is obtainable only by commanders and gives extra jobs to the [b]governed planet[/b].

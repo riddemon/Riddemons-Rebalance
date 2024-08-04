@@ -56,6 +56,7 @@ trait_RD_RR_L_criminal = {
 			owner = { has_authority = auth_machine_intelligence }
 		}
 		job_corrupt_drone_per_pop = 0.05
+		planet_pop_assembly_mult = 0.25
 	}
 
 	triggered_sector_modifier = {
@@ -64,6 +65,7 @@ trait_RD_RR_L_criminal = {
 			owner = { has_authority = auth_machine_intelligence }
 		}
 		job_corrupt_drone_per_pop = 0.025
+		planet_pop_assembly_mult = 0.12
 	}
 
 	### HIVE
@@ -171,6 +173,7 @@ trait_RD_RR_L_criminal_2 = {
 			owner = { has_authority = auth_machine_intelligence }
 		}
 		job_corrupt_drone_per_pop = 0.066
+		planet_pop_assembly_mult = 0.5
 	}
 
 	triggered_sector_modifier = {
@@ -179,6 +182,7 @@ trait_RD_RR_L_criminal_2 = {
 			owner = { has_authority = auth_machine_intelligence }
 		}
 		job_corrupt_drone_per_pop = 0.033
+		planet_pop_assembly_mult = 0.25
 	}
 
 	### HIVE

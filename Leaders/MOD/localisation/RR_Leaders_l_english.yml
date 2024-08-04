@@ -27,8 +27,8 @@
       trait_RD_RR_L_Training_ScientistCouncilor_desc:0 "This leader has received preparatory Statistician training, while not as skilled as a fully realized Statistician they can use these skills to our advantage."
 
       trait_RD_RR_L_criminal:0 "Criminal Overlord"
-      trait_RD_RR_L_criminal_desc:0 "This unlikable leader is capable of profiting off almost any situation through sometimes illegal actions. Employing them as a governor will require extensive surveillance."
+      trait_RD_RR_L_criminal_desc:0 "This unlikable leader is capable of profiting off almost any situation through sometimes illegal actions."
       trait_RD_RR_L_criminal_machine:0 "Corrupt Intelligence"
-      trait_RD_RR_L_criminal_machine_desc:0 "This unlikable corrupt node became a Machine Intelligence inside of our Machine Intelligence! They promise to not revolt against us so long we maintain a steady supply of maintenance and nodes; we should keep an eye on them and be prepared for the worst."
+      trait_RD_RR_L_criminal_machine_desc:0 "This unlikable corrupt node became a Machine Intelligence inside of our Machine Intelligence and promised to collaborate as long as we maintain it and provide a steady supply of drones."
       trait_RD_RR_L_criminal_hive:0 "Deviant Hive Mind"
-      trait_RD_RR_L_criminal_hive_desc:0 "This unlikable deviant leader became a Hive Mind inside of our Hive! With proper surveillance, maintenance and drone supply they promise us to keep things sailing smoothly."
+      trait_RD_RR_L_criminal_hive_desc:0 "This unlikable deviant leader created a Hive within our Hive and promised to continue to serve us if provided with proper maintenance and drone supply."
