@@ -23,6 +23,7 @@ Here's a list of changes applied by this mod:
 [i]The following traits can be gained by non-veteran leaders ( below level 4 ).[/i]
 [list]
   [*]New [b]Training[/b] traits providing roughly 25% - 50% of the subclass bonuses.
+  [*]New [b]Traits[/b] for all leader classes.
   [*][b]Principled[/b] reduces crime by 20 - 40.
   [*][b]Feedback loop[/b] Increases stability by 5 - 10 and amenities by 15 - 30.
   [*][b]Home guard[/b] Increases defensive armies by 2 - 4 - 6.
