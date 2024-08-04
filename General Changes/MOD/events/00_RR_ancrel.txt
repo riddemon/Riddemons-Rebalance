@@ -30,13 +30,6 @@ country_event = {
 		}
 	}
 	option = {
-		name = event_RD_RR_ArcaneDeciphering_5
-		custom_tooltip = event_RD_RR_ArcaneDeciphering_5_D
-		hidden_effect = {
-			country_event = { id = ancrel.10005 }
-		}
-	}
-	option = {
 		name = event_RD_RR_ArcaneDeciphering_4
 		custom_tooltip = event_RD_RR_ArcaneDeciphering_4_D
 		hidden_effect = {
@@ -44,10 +37,10 @@ country_event = {
 		}
 	}
 	option = {
-		name = event_RD_RR_ArcaneDeciphering_7
-		custom_tooltip = event_RD_RR_ArcaneDeciphering_7_D
+		name = event_RD_RR_ArcaneDeciphering_5
+		custom_tooltip = event_RD_RR_ArcaneDeciphering_5_D
 		hidden_effect = {
-			country_event = { id = ancrel.10007 }
+			country_event = { id = ancrel.10005 }
 		}
 	}
 	option = {
@@ -55,6 +48,13 @@ country_event = {
 		custom_tooltip = event_RD_RR_ArcaneDeciphering_6_D
 		hidden_effect = {
 			country_event = { id = ancrel.10006 }
+		}
+	}
+	option = {
+		name = event_RD_RR_ArcaneDeciphering_7
+		custom_tooltip = event_RD_RR_ArcaneDeciphering_7_D
+		hidden_effect = {
+			country_event = { id = ancrel.10007 }
 		}
 	}
 	option = {
