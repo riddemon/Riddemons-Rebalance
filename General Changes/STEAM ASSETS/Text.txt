@@ -11,7 +11,6 @@ Here's a list of changes applied by this mod:
 [h3]Machine empires[/h3]
 [list]
   [*][b]Organic Paradise[/b] provides extra jobs and houses more bio-trophies but have a higher upkeep.
-  [*][b]Land appropriation[/b] policy can be disabled after establishing your first contact.
   [*]New ecumenopolis district which provides extra replicator jobs.
 [/list]
 [h3]Biological empires[/h3]
@@ -31,6 +30,7 @@ Here's a list of changes applied by this mod:
    [*][b]Tributaries[/b] and [b]subsidiaries[/b] can be limited and prohibited from expanding and engaging in diplomacy.
    [*][b]Sky Domes[/b] provides a lot more housing and amenities, Rogue Servitors exchange the housing for a self-sustaining bio-trophy sanctuary.
    [*][b]Empyrean Domes[/b] Double the positive values of the Sky dome.
+   [*]Ability to dismantle ruined [b]Orbital Rings[/b] and [b]Habitats[/b].
 [/list]
 
 [h1] Updates [/h1]
@@ -39,6 +39,14 @@ This mod was originally meant for [b]personal use[/b], therefore updates are not
 [h1] Balance [/h1]
 The mod is balanced [b]following my standards[/b].
 I am sorry if it does not follow yours (or someone else's) but there will be no effort to balance further than my own needs and opinions.
+
+[h1]Credits[/h1]
+[table]
+  [tr][td]Original Idea[/td][td]Me[/td][/tr]
+  [tr][td]Original Code[/td][td]Me[/td][/tr]
+  [tr][td]Orbital rings (flag cleanup)[/td][td]
+    [url=https://steamcommunity.com/profiles/76561198062593744]Easy Pete[/url]
+  [/td][/tr]
 
 [h1]Links[/h1]
 [table][tr]
