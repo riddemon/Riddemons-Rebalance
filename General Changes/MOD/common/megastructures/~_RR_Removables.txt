@@ -1,0 +1,83 @@
+orbital_ring_ruined = {
+	entity = "orbital_ring_01_destroyed_entity"
+	construction_entity = "orbital_ring_construction_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = yes
+	entity_offset = { x = 0 y = 0 }
+	scales_with_planet = yes
+
+	potential = { always = no }
+	is_ruined_orbital_ring = yes
+
+	# DISMANTLE #
+
+	dismantle_time = 360
+
+	dismantle_cost = {
+		category = megastructures
+		cost = { energy = 500 }
+	}
+
+	dismantle_potential = { always = yes }
+
+	dismantle_possible = {
+		can_dismantle_megastructure = { TECH = tech_orbital_ring_tier_1 }
+	}
+
+	on_dismantle_start = {
+    fromfrom.planet = {
+      set_planet_flag = flag_RD_RR_dismantling
+      planet_event = { id = event_RD_RR_dismantling.1 days = 361 }
+    }
+  }
+	on_dismantle_cancel = {
+    fromfrom.planet = { remove_planet_flag = flag_RD_RR_dismantling }
+  }
+	on_dismantle_complete = {
+		from = {
+			add_resource = {
+				alloys = 500
+				mult = modifier:megastructure_dismantle_refund_mult
+			}
+		}
+	}
+}
+
+habitat_central_complex_ruined = {
+	entity = "habitat_destroyed_01_entity"
+	construction_entity = "habitat_destroyed_01_entity"
+	portrait = "GFX_megastructure_construction_background"
+	place_entity_on_planet_plane = no
+	show_in_outliner = no
+	entity_offset = { x = 7 y = -7 }
+
+	potential = { always = no }
+
+	# DISMANTLE #
+
+	dismantle_time = 360
+
+	dismantle_cost = {
+		category = megastructures
+		cost = { energy = 500 }
+	}
+
+	dismantle_potential = { always = yes }
+
+	dismantle_possible = {
+		can_dismantle_megastructure = { TECH = tech_habitat_1 }
+	}
+
+	on_dismantle_complete = {
+		random_system_planet = {
+			limit = { has_planet_flag = habitat_build_site }
+			remove_planet_flag = habitat_build_site
+		}
+		from = {
+			add_resource = {
+				alloys = 500
+				mult = modifier:megastructure_dismantle_refund_mult
+			}
+		}
+	}
+}

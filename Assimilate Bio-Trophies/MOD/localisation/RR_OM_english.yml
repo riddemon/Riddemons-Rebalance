@@ -1,0 +1,5 @@
+﻿l_english:
+ LivingStandard_RD_RR_OM_TrophyMerge: "Mandatory Gene-Therapy"
+ LivingStandard_RD_RR_OM_TrophyMerge_tooltip: "These $pop_cat_bio_trophy_plural$ were deemed \"aesthetically deficient\" by their machine keepers. In addition to relentless pampering, they undergo mandatory genetic therapy so that their appearance and abilities eventually match those of their masters' creators."
+ LivingStandard_RD_RR_OM_TrophyMerge_tooltip_delayed: "§LYou'll be so much cuter after gene-therapy and a relaxing bath!§!"
+ species_is_primary_trophy: "$TRIGGER_FAIL$This species is the primary §Y$citizenship_organic_trophy$§! species."

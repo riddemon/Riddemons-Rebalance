@@ -1,0 +1,14 @@
+namespace = event_RD_RR_dismantling
+
+planet_event = {
+    id = event_RD_RR_dismantling.1
+    is_triggered_only = yes
+    hide_window = yes
+
+    trigger = { has_planet_flag = flag_RD_RR_dismantling }
+    immediate = {
+        remove_planet_flag = has_megastructure
+        remove_planet_flag = ruined_orbital_ring_planet
+        remove_planet_flag = flag_RD_RR_dismantling
+    }
+}
