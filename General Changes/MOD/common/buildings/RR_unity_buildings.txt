@@ -127,6 +127,7 @@ building_fe_sky_dome = {
 		}
 		NOT = {
 			has_modifier = slave_colony
+			has_modifier = penal_colony
 		}
 	}
 
@@ -237,6 +238,7 @@ building_fe_dome = {
 		}
 		NOT = {
 			has_modifier = slave_colony
+			has_modifier = penal_colony
 		}
 	}
 

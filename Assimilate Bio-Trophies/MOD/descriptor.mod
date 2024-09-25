@@ -4,5 +4,5 @@ tags={
 	"Species"
 	"Gameplay"
 }
-supported_version="3.12.4"
+supported_version="v3.13.1"
 remote_file_id="3263667327"
